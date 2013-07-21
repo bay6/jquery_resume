@@ -13,3 +13,9 @@ jQuery版动态个人简历
 ### 任务考点
 
 1. jQuery的使用
+
+
+
+### 参考资料 ###
+
+1. [jQuery学习笔记](http://www.cnblogs.com/DemoLee/category/337115.html)
