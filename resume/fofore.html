@@ -1,0 +1,56 @@
+ <script src=""></script>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>fofore's resume</title>
+    <style type="text/css">
+        abbr
+        {
+            font-size: 19px;
+        }
+        .bnt
+        {
+            text-align: center;
+            font-size: 100px;
+            color: #FA5882;
+        }
+    </style>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            var speed = 500;
+
+            $("#btnShow").click(function(event)
+            {
+                event.stopPropagation();
+                var offset = $(event.target).offset();
+                $("#divPop").css({ top: offset.top + $(event.target).height() + "px", left: offset.left });
+                $("#divPop").show(speed);
+
+            });
+            $(document).click(function(event) { $("#divPop").hide(speed) });
+            $("#divPop").click(function(event) { $("#divPop").hide(speed) });
+        });
+    </script>
+</head>
+
+
+<body>
+    <div>
+        <br /><br /><br />
+        <div style="text-align: center;"><a herf="#" id="btnShow" class="bnt">click fofore's resume</a></div>
+    </div>
+        
+    <div id="divPop" style="display:none;font-size:50px;">
+        <div style="text-align: center;">this is fofore's simplest resume.</div>
+        <div style="text-align: center;">welcome to</div>
+        <div style="text-align: center;"><a href="http://fofore.com/about.html">fofore.com</a> </div>
+    </div>
+</body>
+</html>
