@@ -20,3 +20,9 @@ jQuery版动态个人简历
 
 1. [jQuery学习笔记](http://www.cnblogs.com/DemoLee/category/337115.html)
 2. [分享一些D瓜哥攒的比较好的Web开发资料](http://www.diguage.com/archives/67.html)
+
+
+### 参考项目
+
+http://juocode.github.io/jianli/
+http://julying.com/lab/gridmenu/live-demo.html
