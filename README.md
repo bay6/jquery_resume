@@ -24,5 +24,5 @@ jQuery版动态个人简历
 
 ### 参考项目
 
-http://juocode.github.io/jianli/
+http://juocode.github.io/jianli <br/>
 http://julying.com/lab/gridmenu/live-demo.html
